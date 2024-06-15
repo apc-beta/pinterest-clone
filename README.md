@@ -29,5 +29,5 @@ This is a backend project for a Pinterest-like web application that allows user 
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/pinterest-clone.git
+   git clone https://github.com/apc-beta/pinterest-clone.git
    cd pinterest-clone
