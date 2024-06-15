@@ -1,4 +1,4 @@
-# Pinterest Clone Backend
+# SnapGrid
 
 This is a backend project for a Pinterest-like web application that allows user authorization and authentication. Users can upload images, view images uploaded by other users, and interact with the content.
 
