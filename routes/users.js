@@ -1,7 +1,18 @@
 const mongoose = require('mongoose');
 const plm = require('passport-local-mongoose');
 
-mongoose.connect('mongodb://127.0.0.1:27017/pintrest-clone');
+const uri = 'mongodb+srv://apc_2703:NEkeRNsDWCqz35qo@snapgrid.cw9k32m.mongodb.net/snapdb?retryWrites=true&w=majority';
+
+console.log('Connecting to MongoDB with URI:', uri);
+
+mongoose.connect(uri)
+  .then(() => {
+    console.log('Successfully connected to MongoDB');
+  })
+  .catch(err => {
+    console.error('Connection error', err);
+  });
+
 
 const userSchema = mongoose.Schema({
   fullname: {
